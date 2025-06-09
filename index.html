@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work Hours Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">TrackHours</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Track</a>
+            <a href="#">Reports</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Track Your Work Hours</h1>
+        <p>Stay organized, earn smart. Track time, calculate pay.</p>
+        <button onclick="connect()">Connect</button>
+    </section>
+
+    <section class="dashboard">
+        <div>
+            <h2>Today’s Hours</h2>
+            <p id="hours">00:00</p>
+        </div>
+        <div>
+            <h2>Clock</h2>
+            <button onclick="startWork()">Start Work</button>
+            <button onclick="endWork()">End Work</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 TrackHours. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
